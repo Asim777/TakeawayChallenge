@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/splash">
+
+    <fragment
+        android:id="@+id/splash"
+        android:name="com.asimqasimzade.takeawaychallenge.presentation.splash.SplashFragment"
+        tools:layout="@layout/fragment_splash">
+
+        <action
+            android:id="@+id/goToRestaurantsFromSplashAction"
+            app:destination="@id/restaurantsFragment"
+            app:popUpTo="@id/splash"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/restaurantsFragment"
+        android:name="com.asimqasimzade.takeawaychallenge.presentation.restaurants.RestaurantsFragment"
+        tools:layout="@layout/fragment_restaurants" />
+</navigation>

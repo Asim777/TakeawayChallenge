@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">TakeawayChallenge</string>
+    <string name="takeaway_logo_content_description">Takeaway logo</string>
+    <string name="restaurant_thumbnail_content_description">Restaurant Thumbnail</string>
+    <string name="restaurant_distance_icon_content_description">Distance Icon</string>
+    <string name="restaurant_minimal_cost_icon_content_description">Minimal Cost Icon</string>
+    <string name="restaurant_delivery_cost_icon_content_description">Delivery Cost Icon</string>
+    <string name="newest">NEW</string>
+    <string name="best_match">BEST MATCH</string>
+    <string name="menu_sort_title">Sort menu item</string>
+    <string name="menu_filter_title">Filter menu item</string>
+    <string name="sorting_dialog_title">Select a sorting option</string>
+    <string name="search_hint">Enter restaurant name</string>
+    <array name="sorting_options">
+        <item>Best Match</item>
+        <item>Newest</item>
+        <item>Rating</item>
+        <item>Distance</item>
+        <item>Popularity</item>
+        <item>Average price</item>
+        <item>Delivery cost</item>
+        <item>Minimum cost</item>
+    </array>
+</resources>
